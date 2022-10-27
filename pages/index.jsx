@@ -81,24 +81,6 @@ export default function Home() {
               : Node.js | Express | <br /> ◾DataBase: SEQUELIZE | PostgreSQL
             </p>
           </div>
-          <div className="text-5xl flex justify-center gap-16 py-3 text-gray-600 dark:text-white ">
-            <a
-              className="hover:text-teal-600"
-              href="https://github.com/Dfcuevas"
-              target="_blank"
-              rel="noreferrer"
-            >
-              <AiFillGithub />
-            </a>
-            <a
-              className="hover:text-teal-600"
-              href="https://www.linkedin.com/in/diego-fernando-cuevas-frontend-developer/"
-              target="_blank"
-              rel="noreferrer"
-            >
-              <AiFillLinkedin />
-            </a>
-          </div>
         </section>
 
         {/* section two */}
@@ -226,6 +208,29 @@ export default function Home() {
             </div> */}
           </div>
         </section>
+        <footer className="text-teal-600  text-center pb-10">
+          <h1 className="mt-10 text-5xl">Contact</h1>
+          <p className="text-xl pt-5">Email: ingdcuevas@gmail.com</p>
+          <p className="text-xl pt-3">Phone number: +573202680705</p>
+          <div className="text-5xl flex justify-center gap-16 py-3 text-gray-600 dark:text-white ">
+            <a
+              className="hover:text-teal-600"
+              href="https://github.com/Dfcuevas"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <AiFillGithub />
+            </a>
+            <a
+              className="hover:text-teal-600"
+              href="https://www.linkedin.com/in/diego-fernando-cuevas-frontend-developer/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <AiFillLinkedin />
+            </a>
+          </div>
+        </footer>
       </main>
     </div>
   );
