@@ -4,9 +4,9 @@ import { AiFillGithub, AiFillLinkedin } from "react-icons/ai";
 import Image from "next/image";
 import imgDiego from "../public/prefil Diego.jpg";
 import web1 from "../public/interactive detail from.png";
-import web2 from "../public/rating component.png";
+import web2 from "../public/shorteningUrl.png";
 import web3 from "../public/countries.png";
-import web4 from "../public/ecommerce.png";
+import web4 from "../public/modernuiux.png";
 
 import { useState } from "react";
 
@@ -123,7 +123,7 @@ export default function Home() {
           <div className="flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap">
             <div className="basis-1/3 flex-1">
               <a
-                href="https://cioclothes.vercel.app/"
+                href="https://modernuisite.netlify.app/"
                 target="_blank"
                 rel="noreferrer"
               >
@@ -155,7 +155,7 @@ export default function Home() {
             </div>
             <div className="basis-1/3 flex-1">
               <a
-                href="https://interactive-rating-component-react.netlify.app/"
+                href="https://apishorteningurl.netlify.app/"
                 target="_blank"
                 rel="noreferrer"
               >
