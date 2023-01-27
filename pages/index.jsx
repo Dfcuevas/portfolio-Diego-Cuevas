@@ -7,11 +7,13 @@ import web1 from "../public/interactive detail from.png";
 import web2 from "../public/shorteningUrl.png";
 import web3 from "../public/countries.png";
 import web4 from "../public/modernuiux.png";
+import web5 from "../public/ai-image.png";
+import web6 from "../public/memories-app.png";
 
 import { useState } from "react";
 
 export default function Home() {
-  const [darkMode, setDarkMode] = useState(false);
+  const [darkMode, setDarkMode] = useState(true);
   return (
     <div className={darkMode ? "dark" : ""}>
       <Head>
@@ -77,8 +79,9 @@ export default function Home() {
             <p className="text-lg py-5 leading-8 text-gray-800 md:text-xl max-w-2xl mx-auto dark:text-white">
               💻Which technologies do I work with? <br />
               <br /> ◽Languages: Javascript, SQL <br /> ◾Front-End : React |
-              Redux | Hooks | React-Router | Bootstrap | CSS | <br /> ◽Back-End
-              : Node.js | Express | <br /> ◾DataBase: SEQUELIZE | PostgreSQL
+              Redux | Hooks | React-Router | Bootstrap | CSS | TailwindCss |
+              MaterialUI <br /> ◽Back-End : Node.js | Express | <br />{" "}
+              ◾DataBase: SEQUELIZE | PostgreSQL | MongoDB
             </p>
           </div>
         </section>
@@ -123,12 +126,12 @@ export default function Home() {
           <div className="flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap">
             <div className="basis-1/3 flex-1">
               <a
-                href="https://modernuisite.netlify.app/"
+                href="https://memories-app-client-nine.vercel.app"
                 target="_blank"
                 rel="noreferrer"
               >
                 <Image
-                  src={web4}
+                  src={web6}
                   alt="imagen de portafolio"
                   className="rounded-lg object-cover"
                   width={"100%"}
@@ -139,12 +142,45 @@ export default function Home() {
             </div>
             <div className="basis-1/3 flex-1">
               <a
+                href="https://ai-image-generation-app.vercel.app/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <Image
+                  src={web5}
+                  alt="imagen de portafolio"
+                  className="rounded-lg object-cover"
+                  width={"100%"}
+                  height={"100%"}
+                  layout="responsive"
+                />
+              </a>
+            </div>
+
+            <div className="basis-1/3 flex-1">
+              <a
                 href="https://countries-app-deploy-client.vercel.app/"
                 target="_blank"
                 rel="noreferrer"
               >
                 <Image
                   src={web3}
+                  alt="imagen de portafolio"
+                  className="rounded-lg object-cover"
+                  width={"100%"}
+                  height={"100%"}
+                  layout="responsive"
+                />
+              </a>
+            </div>
+            <div className="basis-1/3 flex-1">
+              <a
+                href="https://modernuisite.netlify.app/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <Image
+                  src={web4}
                   alt="imagen de portafolio"
                   className="rounded-lg object-cover"
                   width={"100%"}
